@@ -3,6 +3,7 @@ import { motion } from "motion/react";
 
 import { images } from "../../constants";
 import "./About.scss";
+// import { urlFor, client } from '../../client'
 
 const abouts = [
   { 
@@ -28,6 +29,17 @@ const abouts = [
 ]
 
 export default function About() {
+  // const [abouts, setAbouts] = useState([]);
+
+  // useEffect(() => {
+  //   const query = '*[_type == "abouts"]';
+
+  //   client.fetch(query)
+  //     .then((data) => setAbouts(data))
+
+  // }, []);
+  
+
   return (
     <>
       <h2 className="head-text">
