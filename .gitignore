@@ -6,7 +6,7 @@
 *.pem
 *.tsbuildinfo
 *.local
-
+.env
 # ===========================
 # Frontend ignores
 # ===========================
