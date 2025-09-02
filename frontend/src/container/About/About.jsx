@@ -13,7 +13,7 @@ const abouts = [
     imgUrl: images.about01
   },
   { 
-    title: 'Web Design',
+    title: 'AI solution',
     description: 'I am a good web developer',
     imgUrl: images.about02
   },
